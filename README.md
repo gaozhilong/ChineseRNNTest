@@ -1,0 +1,2 @@
+# ChineseRNNTest
+使用deeplearning尝试使用RNN网络学习中文文档并输出结果，使用了deeplearning中的示例修改完成，增加了中文分词并更改了相关输入迭代器。因为是测试所以没有提供UI界面输入学习文档的路径，请自行更改GravesLSTMCharModellingExample.java文件中112行的文件路径关联到需要学习的中文文档。另：如果GPU不是很好的话请不要尝试学习比较大的中文文档会相当的慢
